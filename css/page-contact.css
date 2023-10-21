@@ -1,0 +1,32 @@
+body {
+    background-color: var(--secondary-color-b);
+}
+
+/* ------------------------------------------------------------- */
+/* Media Queries */
+/* ------------------------------------------------------------- */
+@media (min-width: 769px) {
+    .navbar {
+        position: inherit;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    body {
+        background-color: var(--secondary-color-b);
+    }
+
+    /* Burger menu */
+    .navbar-burger {
+        border: 2px solid var(--secondary-color-w);
+    }.navbar-burger.show {
+        border: 2px solid var(--secondary-color-b);
+    }
+    .navbar-burger-item {
+        background: var(--secondary-color-w);
+    }.navbar-burger-item.show {
+        background: var(--secondary-color-b);
+    }
+
+}

@@ -1,0 +1,142 @@
+/* @font-face {
+    font-family: 'Ubuntu';
+    src: url('wp-content/themes/akconsultingthemewp/assets/fonts/Ubuntu/Ubuntu-Light.ttf');
+    font-weight: light;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('wp-content/themes/akconsultingthemewp/assets/fonts/Ubuntu/Ubuntu-Regular.ttf');
+    font-weight: regular;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('wp-content/themes/akconsultingthemewp/assets/fonts/Ubuntu/Ubuntu-Medium.ttf');
+    font-weight: medium;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('wp-content/themes/akconsultingthemewp/assets/fonts/Ubuntu/Ubuntu-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('wp-content/themes/akconsultingthemewp/assets/fonts/Ubuntu/Ubuntu-LightItalic.ttf');
+    font-weight: light;
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('wp-content/themes/akconsultingthemewp/assets/fonts/Ubuntu/Ubuntu-Italic.ttf');
+    font-weight: regular;
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('wp-content/themes/akconsultingthemewp/assets/fonts/Ubuntu/Ubuntu-MediumItalic.ttf');
+    font-weight: medium;
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('wp-content/themes/akconsultingthemewp/assets/fonts/Ubuntu/Ubuntu-BoldItalic.ttf');
+    font-weight: bold;
+    font-style: italic, oblique;
+} */
+
+:root {
+    /* Color */
+    --primary-color: #BF0D40;
+    --secondary-color-w: #fff;
+    --secondary-color-b: #180F11;
+
+    /* Typography */
+    --font-family-primary: 'Ubuntu', sans-serif;
+    --font-family-secondary: 'Arial', sans-serif;
+}
+
+/*
+ * Typography - Desktop
+ */
+h1 {
+    /* H1 - Ubuntu Medium - 120px */
+    font-family: var(--font-family-primary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 112px;
+}
+h2 {
+    /* H2 - Ubuntu Medium - 88px */
+    font-family: var(--font-family-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+}
+h3 {
+    /* H3 - Ubuntu Regular - 34px */
+    font-family: var(--font-family-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 57px;
+}
+p {
+    /* Corpus - Arial Regular - 18px */
+    font-family: var(--font-family-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.form-font {
+    /* Form - Arial Regular - 16px */
+    font-family: var(--font-family-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+.button-font {
+    /* Button - Ubuntu Regular - 16px */
+    font-family: var(--font-family-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/*
+ * Typography - Mobile
+ */
+@media screen and (max-width: 768px) {
+    h1 {
+        /* Mobile H1 - Ubuntu Medium - 50px */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 56px;
+    }
+    h2 {
+        /* Mobile H2 - Ubuntu Regular - 32px */
+        font-style: normal;
+        font-weight: regular;
+        font-size: 32px;
+        line-height: 37px;
+    }
+    h3 {
+        /* Mobile H3 - Ubuntu Medium - 28px */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 42px;
+    }
+    p {
+        /* Mobile Corpus - Arial Regular - 17px */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+    }
+}
